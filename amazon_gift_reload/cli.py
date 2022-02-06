@@ -3,7 +3,7 @@ import argparse
 import sys
 import getpass
 
-from amazon_gift_reload import AmazonGiftReloader
+from .amazon_gift_reload import AmazonGiftReloader
 
 
 def main():
