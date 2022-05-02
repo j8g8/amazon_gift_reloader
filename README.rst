@@ -14,10 +14,11 @@ amazon_gift_reload
         :alt: Documentation Status
 
 
-
-
-reloads amazon giftcard balance
-
+```text
+brew install chromedrive
+pip install git+https://github.com/j8g8/amazon_gift_reloader.git@dev
+amazon-gift-reload -h
+```
 
 * Free software: MIT license
 * Documentation: https://amazon-gift-reload.readthedocs.io.
