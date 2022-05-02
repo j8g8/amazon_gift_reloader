@@ -10,7 +10,7 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = []
+requirements = ['selenium']
 
 test_requirements = ['pytest>=3', ]
 
@@ -31,7 +31,7 @@ setup(
     description="reloads amazon giftcard balance",
     entry_points={
         'console_scripts': [
-            'amazon_gift_reload=amazon_gift_reload.cli:main',
+            'amazon-gift-reload=amazon_gift_reload.cli:main',
         ],
     },
     install_requires=requirements,
